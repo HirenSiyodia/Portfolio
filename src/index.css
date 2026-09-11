@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+  background: #000;
+}
+
+body {
+   font-family: 'poppins', sans-serif;
+   overflow-x: hidden;
+}
+
+h1 , h2 {
+   font-family: 'roboto', sans-serif;
+}
+
+.logo-font {
+   font-family: 'dancing script', cursive;
+}
+
+.nav-font{
+   font-family: 'poppins', sans-serif;
+   padding: 0.5rem 0.5rem;
+}
+
+@layer utilities {
+   .gradient {
+      background: linear-gradient(-45deg, #000000 , #0c100f, #0f1111 );
+   }
+}
