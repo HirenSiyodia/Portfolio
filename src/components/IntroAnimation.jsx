@@ -1,59 +1,36 @@
-import React from "react";
-import { motion } from "framer-motion";
+import React, { useEffect, useMemo, useState } from "react";
 
-const IntroAnimation = ({
-  children,
-  direction = "bottom",
-  duration = 0.8,
-  delay = 0,
-  once = true,
-}) => {
+const IntroAnimation = ({ onFinish }) => {
+  const greetings = useMemo(() => ["Hello", "नमस्ते", "Hola", "Bonjour", "Hallo", "Ciao",], []);
 
-  const directions = {
-    left: {
-      x: -100,
-      y: 0,
-    },
+  const [index, setIndex] = useState(0);
 
-    right: {
-      x: 100,
-      y: 0,
-    },
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setIndex((prev) => {
+        if (prev === greetings.length - 1) {
+          clearInterval(timer);
 
-    bottom: {
-      x: 0,
-      y: 50,
-    },
+          setTimeout(() => {
+            onFinish();
+          }, 800);
 
-    top: {
-      x: 0,
-      y: -50,
-    },
-  };
+          return prev;
+        }
+
+        return prev + 1;
+      });
+    }, 200);
+
+    return () => clearInterval(timer);
+  }, [greetings, onFinish]);
 
   return (
-    <motion.div
-      initial={{
-        opacity: 0,
-        ...directions[direction],
-      }}
-      whileInView={{
-        opacity: 1,
-        x: 0,
-        y: 0,
-      }}
-      transition={{
-        duration: duration,
-        delay: delay,
-        ease: "easeOut",
-      }}
-      viewport={{
-        once: once,
-        amount: 0.2,
-      }}
-    >
-      {children}
-    </motion.div>
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-950 text-white">
+      <h1 className="text-4xl md:text-6xl font-bold">
+        {greetings[index]}, <br/>Devops
+      </h1>
+    </div>
   );
 };
 
