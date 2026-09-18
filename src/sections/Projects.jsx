@@ -23,57 +23,57 @@ const Projects = () => {
       title: "Project One",
       image: Pf1,
       description:
-        "A modern web application built with React and responsive UI design.",
+      "A modern Next.js website with a clean and responsive design. Built with reusable components and smooth navigation.",
       link: "https://next-js-2026-eight.vercel.app/",
     },
     {
       title: "Project Two",
       image: Pf8,
       description:
-        "A responsive application with clean design, reusable components and API integration.",
+        "A creative portfolio website showcasing digital art, illustration, and design projects.",
       link: "https://aria-studios.netlify.app/",
     },
     {
       title: "Project Three",
       image: Pf7,
       description:
-        "A responsive application with clean design, reusable components and API integration.",
-      link: "#",
+        "A modern interior design website showcasing elegant spaces and creative designs.",
+      link: "https://aesthetica-interior.vercel.app/",
     },
     {
       title: "Project Four",
       image: Pf3,
       description:
-        "A full-stack project focused on performance, usability and seamless user experience.",
-      link: "https://github.com/HirenSiyodia/React-Router-Dom",
+        "A React website demonstrating multi-page navigation using React Router.",
+      link: "https://react-router-dom-puce.vercel.app/",
     },
     {
       title: "Project Five",
       image: Pf4,
       description:
-        "A user-friendly web application built with modern frontend technologies.",
-      link: "https://github.com/HirenSiyodia/React-Contact-Manager",
+        "A simple React contact management website for adding, viewing, and managing contacts.",
+      link: "https://react-contact-manager-rho.vercel.app/",
     },
     {
       title: "Project Six",
       image: Pf5,
       description:
-        "A responsive project with reusable components and a clean interface.",
-      link: "https://github.com/HirenSiyodia/React-Quiz",
+        "A simple React quiz website with multiple-choice questions and interactive results.",
+      link: "https://react-quiz-nine-gray.vercel.app/",
     },
     {
       title: "Project Seven",
       image: Pf6,
       description:
-        "A practical application demonstrating modern React development.",
-      link: "https://github.com/HirenSiyodia/React-Tic-Tac-Toe-Game",
+        "A simple React Tic-Tac-Toe game with an interactive game board.",
+      link: "https://react-tic-tac-toe-game-chi-two.vercel.app/",
     },
     {
       title: "Project Eight",
       image: Pf2,
       description:
-        "A responsive application with clean design, reusable components and API integration.",
-      link: "https://github.com/HirenSiyodia/React-Weather-Application",
+        "A simple React weather application for checking current weather information.",
+      link: "https://react-weather-application-kohl.vercel.app/",
     },
   ];
 
