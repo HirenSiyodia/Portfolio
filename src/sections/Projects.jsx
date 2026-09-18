@@ -12,7 +12,8 @@ import Pf3 from "../assets/Pf3.png";
 import Pf4 from "../assets/Pf4.png";
 import Pf5 from "../assets/Pf5.png";
 import Pf6 from "../assets/Pf6.png";
-import Pf7 from '../assets/Pf7.png'
+import Pf7 from '../assets/Pf7.png';
+import Pf8 from '../assets/Pf8.png';
 
 const Projects = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -23,14 +24,14 @@ const Projects = () => {
       image: Pf1,
       description:
         "A modern web application built with React and responsive UI design.",
-      link: "https://github.com/HirenSiyodia/Next-JS-2026",
+      link: "https://next-js-2026-eight.vercel.app/",
     },
     {
       title: "Project Two",
-      image: Pf2,
+      image: Pf8,
       description:
         "A responsive application with clean design, reusable components and API integration.",
-      link: "https://github.com/HirenSiyodia/React-Weather-Application",
+      link: "https://aria-studios.netlify.app/",
     },
     {
       title: "Project Three",
@@ -66,6 +67,13 @@ const Projects = () => {
       description:
         "A practical application demonstrating modern React development.",
       link: "https://github.com/HirenSiyodia/React-Tic-Tac-Toe-Game",
+    },
+    {
+      title: "Project Eight",
+      image: Pf2,
+      description:
+        "A responsive application with clean design, reusable components and API integration.",
+      link: "https://github.com/HirenSiyodia/React-Weather-Application",
     },
   ];
 
@@ -104,7 +112,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="relative w-full min-h-screen py-24"
+      className="relative w-full min-h-screen py-24 scroll-mt-16"
     >
       {/* Heading */}
       <motion.div

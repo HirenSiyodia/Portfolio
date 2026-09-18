@@ -7,7 +7,7 @@ const Skills = () => {
     {
       title: "Technologies",
       skills:
-        "HTML, CSS, SCSS, SASS, JavaScript, Typescript, JSON, Node, React, Next, ",
+        "HTML, CSS, SCSS, SASS, JavaScript, Typescript, PHP, Wordpress, MVC,  JSON, Node.js, React, Next.js, CMS",
     },
     {
       title: "Frameworks",
@@ -17,12 +17,12 @@ const Skills = () => {
     {
       title: "Tools",
       skills:
-        "Vscode, WebStrom, GitHub, Git, Redux, Vercel, Jira, Npm, Webpack",
+        "Vscode, WebStrom, GitHub, Git, Redux, Vercel, Jira, Npm, Webpack, Netlify",
     },
     {
       title: "Methodologies",
       skills:
-        "Version control, SEO, CMS, Data Structures & Algorithms, Object Oriented Programming, User-centered design",
+        "Version control, SEO, Object Oriented Programming, User-centered design",
     },
   ];
 
@@ -78,7 +78,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="relative w-full min-h-screen py-24 px-4 sm:px-6 lg:px-8 text-white"
+      className="relative w-full min-h-screen py-24 px-4 sm:px-6 lg:px-8 text-white scroll-mt-22"
     >
       <div className="mx-auto w-full max-w-5xl">
 

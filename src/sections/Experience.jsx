@@ -8,25 +8,39 @@ const Experience = () => {
 
   const experienceDetails = [
     {
-      company: "Company Name",
-      role: "Software Developer",
-      duration: "June 2020 - Present",
+      company: "Inventech Solutions Pvt Ltd.",
+      role: "Web Designer & Web Developer",
+      duration: "February 2025 - April 2026",
       description:
-        "Add your detailed work experience information here. You can mention your responsibilities, projects, technologies, achievements, and other important details.",
+        "Hello add here"
     },
     {
-      company: "Previous Company",
-      role: "Junior Developer",
-      duration: "June 2018 - May 2020",
+      company: "Teleperformance Pvt Ltd.",
+      role: "Senior Customer Service",
+      duration: "March 2023 - April 2024",
       description:
-        "Add your previous work experience details here. Mention the projects you worked on, your responsibilities, and the technologies you used.",
+        "Handled customer queries and concerns through email, chat, and other non-voice channels. Resolved customer issues by providing accurate information and appropriate solutions within defined timelines. Managed escalations and complex customer cases while maintaining high service quality. Coordinated with internal teams to resolve customer issues and ensure timely resolution.",
     },
     {
-      company: "Another Company",
+      company: "Indigo Consulting - Publicis Groupe",
       role: "Web Developer",
-      duration: "June 2016 - May 2018",
+      duration: "June 2019 - August 2022",
       description:
-        "Add additional experience details here.",
+        "Collaborated within an 8-member team to build responsive front-end solutions, leveraging HTML, CSS, SCSS, Bootstrap, and media queries across 5+ websites and web applications. Bringing new solutions to advance online banking services and Developing HDFC BANK Website. Implemented content management, campaign and E-mailer. Enhanced UI interactivity by 20% using JavaScript, jQuery, and the GSAP animation library, managed WordPress integrations to support and maintain content management needs.",
+    },
+    {
+      company: "Global Advertising Media Pvt Ltd.",
+      role: "Junior Web Developer",
+      duration: "JFebruary 2019 - June 2019",
+      description:
+        "Associated in a 7-member frontend team to develop and maintain websites using HTML, CSS, SCSS, Media queries, JavaScript, and jQuery. Managed content across five websites using various Content Management Systems, including WordPress, MVC, and Drupal. Conducted client visits and provided ongoing support to ensure effective content delivery and client satisfaction.",
+    },
+    {
+      company: "Social Fox Digital Marketing",
+      role: "Web Developer & Designer",
+      duration: "May 2018 - December 2018",
+      description:
+        "Synchronized with a team of 2 designers and 2 developers to brainstorm and establish UI requirements and layout designs. Developed Responsive web interfaces using HTML, CSS/SCSS for 5+ web applications, incorporated Media queries for Cross-device compatibility. Conducted manual, cross-browser compatibility testing for websites, utilized Git for version control.",
     },
   ];
 
@@ -91,7 +105,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="w-full min-h-screen flex items-center mt-24"
+      className="w-full min-h-screen flex items-center mt-24 scroll-mt-24"
     >
       <div className="w-full grid grid-cols-1 md:grid-cols-[60%_40%] tracking-wider leading-relaxed">
 
@@ -104,7 +118,7 @@ const Experience = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
-          className="w-full min-h-125 md:min-h-screen flex flex-col justify-center px-8 md:px-16 lg:px-24"
+          className="w-full flex flex-col justify-center px-8 md:px-16 lg:px-24 py-16"
         >
 
           {/* Heading */}
@@ -117,50 +131,46 @@ const Experience = () => {
 
             <FaBriefcase className="text-3xl md:text-4xl" />
           </motion.h1>
-
-          {/* ================================= */}
-          {/* EXPERIENCE 1 */}
-          {/* ================================= */}
-
-          <motion.div
-            variants={itemVariants}
-            className="mb-8"
-          >
-            <h2 className="text-2xl font-semibold text-slate-200">
-              Software Developer
-            </h2>
-
-            <hr className="w-1/2 mt-3 border-slate-600" />
-
-            <p className="text-blue-300 mt-2">
-              Company Name
-            </p>
-
-            <p className="text-slate-500 mt-1">
-              June 2020 - Present
-            </p>
-          </motion.div>
-
           {/* ================================= */}
           {/* EXPERIENCE 2 */}
           {/* ================================= */}
-
           <motion.div
             variants={itemVariants}
             className="mb-8"
           >
             <h2 className="text-2xl font-semibold text-slate-200">
-              Junior Developer
+              Front End Developer - React JS
             </h2>
 
             <hr className="w-1/2 mt-3 border-slate-600" />
 
             <p className="text-blue-300 mt-2">
-              Previous Company
+              Inventech Solutions Pvt Ltd.
             </p>
 
             <p className="text-slate-500 mt-1">
-              June 2018 - May 2020
+              February 2025 - April 2026
+            </p>
+          </motion.div>
+ {/* ================================= */}
+          {/* EXPERIENCE 2 */}
+          {/* ================================= */}
+          <motion.div
+            variants={itemVariants}
+            className="mb-8"
+          >
+            <h2 className="text-2xl font-semibold text-slate-200">
+              Senior Customer Service
+            </h2>
+
+            <hr className="w-1/2 mt-3 border-slate-600" />
+
+            <p className="text-blue-300 mt-2">
+              Teleperformance Pvt Ltd.
+            </p>
+
+            <p className="text-slate-500 mt-1">
+              March 2023 - April 2024
             </p>
           </motion.div>
 
@@ -179,11 +189,57 @@ const Experience = () => {
             <hr className="w-1/2 mt-3 border-slate-600" />
 
             <p className="text-blue-300 mt-2">
-              Another Company
+              Indigo Consulting - Publicis Groupe
             </p>
 
             <p className="text-slate-500 mt-1">
-              June 2016 - May 2018
+              June 2019 - August 2022
+            </p>
+          </motion.div>
+
+          {/* ================================= */}
+          {/* EXPERIENCE 4 */}
+          {/* ================================= */}
+
+          <motion.div
+            variants={itemVariants}
+            className="mb-8"
+          >
+            <h2 className="text-2xl font-semibold text-slate-200">
+              Junior Web Developer
+            </h2>
+
+            <hr className="w-1/2 mt-3 border-slate-600" />
+
+            <p className="text-blue-300 mt-2">
+              Global Advertising Media Pvt Ltd.
+            </p>
+
+            <p className="text-slate-500 mt-1">
+              February 2019 - June 2019
+            </p>
+          </motion.div>
+
+          {/* ================================= */}
+          {/* EXPERIENCE 5 */}
+          {/* ================================= */}
+
+          <motion.div
+            variants={itemVariants}
+            className="mb-8"
+          >
+            <h2 className="text-2xl font-semibold text-slate-200">
+              Web Developer & Designer
+            </h2>
+
+            <hr className="w-1/2 mt-3 border-slate-600" />
+
+            <p className="text-blue-300 mt-2">
+              Social Fox Digital Marketing
+            </p>
+
+            <p className="text-slate-500 mt-1">
+              May 2018 - December 2018
             </p>
           </motion.div>
 
@@ -191,14 +247,14 @@ const Experience = () => {
           {/* VIEW DETAILS BUTTON */}
           {/* ================================= */}
 
-          <motion.div variants={itemVariants}>
-            <button
-              onClick={() => setShowDetails(true)}
-              className="group inline-flex items-center gap-3 rounded-lg border border-blue-300 bg-blue-400/10 px-7 py-3.5 text-sm font-semibold text-blue-300 tracking-wider transition-all duration-300 hover:scale-105 cursor-pointer hover:border-blue-400 hover:bg-blue-400 hover:text-white hover:shadow-[0_0_25px_rgba(129,140,248,0.25)]"
-            >
-              View Details
-            </button>
-          </motion.div>
+          <motion.div variants={itemVariants} className="mt-2 pb-10">
+  <button
+    onClick={() => setShowDetails(true)}
+    className="group inline-flex items-center gap-3 rounded-lg border border-blue-300 bg-blue-400/10 px-7 py-3.5 text-sm font-semibold text-blue-300 tracking-wider transition-all duration-300 hover:scale-105 cursor-pointer hover:border-blue-400 hover:bg-blue-400 hover:text-white hover:shadow-[0_0_25px_rgba(129,140,248,0.25)]"
+  >
+    View Details
+  </button>
+</motion.div>
         </motion.div>
 
         {/* ================================= */}
@@ -206,18 +262,18 @@ const Experience = () => {
         {/* ================================= */}
 
         <motion.div
-          variants={imageVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.3 }}
-          className="w-full h-125 md:h-screen"
-        >
-          <img
-            src={experienceImage}
-            alt="Experience"
-            className="w-full h-full object-cover grayscale"
-          />
-        </motion.div>
+  variants={imageVariants}
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: true, amount: 0.3 }}
+  className="w-full h-150 md:h-175 lg:h-200 flex items-center justify-center sticky top-24"
+>
+  <img
+    src={experienceImage}
+    alt="Experience"
+    className="w-full h-full object-cover grayscale"
+  />
+</motion.div>
       </div>
 
       {/* ================================= */}

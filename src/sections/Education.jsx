@@ -14,7 +14,7 @@ const Education = () => {
         "Mahatma Gandhi Institute Of Technical Education And Research Center",
       duration: "June 2011 - January 2017",
       description:
-        "Add your detailed information about your Bachelor's degree here.",
+        "Designed and Developed B2B virtual collaboration platform for effective and quick communication within organization. This tool helped to make easy connections between co-workers, partners, and customers.",
     },
     {
       degree: "Diploma in Engineering",
@@ -23,7 +23,7 @@ const Education = () => {
         "Dr. S. & S.S. Ghandhy College of Engineering & Technology",
       duration: "June 2008 - March 2011",
       description:
-        "Add your detailed information about your Diploma here.",
+        "A basic electronic project that demonstrates how a potentiometer works as a variable resistor to control voltage and adjust the output of an electrical circuit. The project helped me understand fundamental concepts of resistance, voltage variation, and circuit control.",
     },
     {
       degree: "Secondary School Certificate Examination",
@@ -31,13 +31,11 @@ const Education = () => {
       college: "Sheth P. H. Vidyalaya, Navsari, Gujarat, India",
       duration: "June 2007",
       description:
-        "Add your school-level achievements and other details here.",
+        "Completed secondary education with a strong foundation in mathematics, science, and general academic studies.",
     },
   ];
 
-  // ==============================
   // Content Parent Animation
-  // ==============================
   const contentVariants = {
     hidden: {
       opacity: 0,
@@ -52,9 +50,7 @@ const Education = () => {
     },
   };
 
-  // ==============================
   // Individual Item Animation
-  // ==============================
   const itemVariants = {
     hidden: {
       opacity: 0,
@@ -71,9 +67,7 @@ const Education = () => {
     },
   };
 
-  // ==============================
   // Image Animation
-  // ==============================
   const imageVariants = {
     hidden: {
       opacity: 0,
@@ -93,14 +87,9 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="w-full min-h-screen flex items-center mt-24"
-    >
+      className="w-full min-h-screen flex items-center mt-24 scroll-mt-24">
       <div className="w-full grid grid-cols-1 md:grid-cols-[40%_60%]">
-
-        {/* ================================= */}
         {/* LEFT SIDE - IMAGE */}
-        {/* ================================= */}
-
         <motion.div
           variants={imageVariants}
           initial="hidden"
@@ -115,10 +104,7 @@ const Education = () => {
           />
         </motion.div>
 
-        {/* ================================= */}
         {/* RIGHT SIDE - CONTENT */}
-        {/* ================================= */}
-
         <motion.div
           variants={contentVariants}
           initial="hidden"
@@ -222,10 +208,7 @@ const Education = () => {
         </motion.div>
       </div>
 
-      {/* ================================= */}
       {/* MODAL */}
-      {/* ================================= */}
-
       {showDetails && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-4 backdrop-blur-sm"
