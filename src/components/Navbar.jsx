@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 w-full z-50 bg-black/50 backdrop-blur-md border-b border-gray-700">
+      <nav className="fixed top-0 left-0 w-full z-50 bg-black/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Main Navbar */}
           <div className="flex items-center justify-between h-17">
@@ -33,7 +33,7 @@ const Navbar = () => {
                 <li key={item.name}>
                   <a
                     href={item.href}
-                    className="text-slate-400 nav-font text-base tracking-wider hover:text-blue-400 transition-all duration-300 ease-out hover:scale-105 inline-block px-2 py-1 lg:text-lg rounded-md"
+                    className="text-slate-400 nav-font text-base tracking-wider hover:text-blue-400 duration-300 ease-out hover:scale-105 inline-block px-2 py-1 lg:text-lg rounded-md"
                   >
                     {item.name}
                   </a>
@@ -70,10 +70,6 @@ const Navbar = () => {
               </ul>
             </div>
           )}
-        </div>
-        {/* Gradient Line */}
-        <div className="pt-2 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <hr className="border-0 h-px bg-linear-to-r from-transparent via-slate-400/50 to-transparent" />
         </div>
       </nav>
     </>
