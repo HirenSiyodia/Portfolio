@@ -190,9 +190,9 @@ export default function Footer() {
         className="relative z-10 mx-auto mt-20 w-full max-w-5xl border-t border-gray-900 pt-8 text-center"
       >
         <p className="text-xs leading-6 text-gray-500">
-          Built by Hiren Nanubhai Siyodia
+          Built & Designed by Hiren Nanubhai Siyodia
           <span className="mx-2 text-gray-700">|</span>
-          &copy; {new Date().getFullYear()} © 2026 All rights reserved.
+           © 2026 All rights reserved.
         </p>
       </motion.div>
     </footer>
