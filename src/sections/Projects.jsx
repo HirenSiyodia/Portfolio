@@ -7,13 +7,13 @@ import {
   FaChevronRight,
 } from "react-icons/fa";
 import Pf1 from "../assets/Pf1.png";
-import Pf2 from "../assets/Pf2.png";
-import Pf3 from "../assets/Pf3.png";
-import Pf4 from "../assets/Pf4.png";
-import Pf5 from "../assets/Pf5.png";
-import Pf6 from "../assets/Pf6.png";
-import Pf7 from '../assets/Pf7.png';
-import Pf8 from '../assets/Pf8.png';
+import Pf2 from "../assets/pf2.png";
+import Pf3 from "../assets/pf3.png";
+import Pf4 from "../assets/pf4.png";
+import Pf5 from "../assets/pf5.png";
+import Pf6 from "../assets/pf6.png";
+import Pf7 from '../assets/pf7.png';
+import Pf8 from '../assets/pf8.png';
 
 const Projects = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
