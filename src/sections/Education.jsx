@@ -116,7 +116,7 @@ const Education = () => {
           {/* Heading */}
           <motion.h1
             variants={itemVariants}
-            className="flex items-center gap-3 text-4xl md:text-5xl font-semibold text-blue-400 mb-10 tracking-wider leading-relaxed"
+            className="flex items-center gap-3 pt-4 text-4xl md:text-5xl font-semibold text-blue-400 mb-10 tracking-wider leading-relaxed"
           >
             Education
 

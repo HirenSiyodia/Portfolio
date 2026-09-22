@@ -106,7 +106,7 @@ const Home = () => {
           className="flex flex-col items-center py-4"
         >
           <div className="flex flex-col items-center">
-            <div className="p-3 sm:p-6 lg:p-7 rounded-xl border border-gray-700 shadow-2xl rotate-3">
+<div className="p-0 sm:p-6 lg:p-7 rounded-none sm:rounded-xl border-0 sm:border border-gray-700 shadow-none sm:shadow-2xl rotate-3">
               <div className="-rotate-3">
                 <div className="w-60 h-72 sm:w-68 sm:h-80 lg:w-70 lg:h-78 rounded-xl overflow-hidden">
                   <img
@@ -182,7 +182,7 @@ const Home = () => {
           className="text-center md:text-left"
         >
           {/* Heading */}
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl tracking-wider leading-relaxed font-semibold text-slate-200 flex flex-wrap sm:gap-3 justify-center md:justify-start">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl tracking-wider leading-relaxed font-semibold text-slate-200 flex flex-wrap gap-2 sm:gap-3 justify-center md:justify-start">
             <span>Hi, I'm</span>
             <span className="text-blue-400">
               <Typewriter
