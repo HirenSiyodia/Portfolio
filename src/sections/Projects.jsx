@@ -154,7 +154,7 @@ const Projects = () => {
               {getVisibleProjects().map((project, index) => (
                 <motion.div
                   key={`${project.title}-${index}`}
-                  initial={{ opacity: 0, y: 40 }}
+                  initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{
                     duration: 0.7,

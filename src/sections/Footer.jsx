@@ -155,12 +155,12 @@ export default function Footer() {
         {/* ================= RIGHT ================= */}
         <motion.div
           variants={itemVariants}
-          className="flex w-full flex-col items-center justify-center md:items-end"
+          className="flex w-full flex-col items-center justify-center md:items-end "
         >
           <div className="text-center md:text-right">
             <p className="mb-4 text-sm uppercase tracking-[0.25em] text-gray-500">
               Resume
-            </p>
+            </p> 
 
             <h3 className="mb-6 text-xl font-semibold text-slate-200">
               Want to know more?
