@@ -9,7 +9,7 @@ const Experience = () => {
   const experienceDetails = [
     {
       company: "Inventech Solutions Pvt Ltd.",
-      role: "Web Developer",
+      role: "Web Developer & Designer",
       duration: "February 2025 - April 2026",
       description:
         "Worked as a web developer & Designer on client website projects in collaboration with a partner company. Developed websites using HTML, CSS, JavaScript, and React.js to deliver user-facing web experiences. Gathered and analyzed client requirements to create actionable development plans for websites and applications. Designed and implemented technical solutions for specific user-facing assets and website requirements. Collaborated with clients and internal stakeholders throughout the development process to align solutions with project objectives."
@@ -139,7 +139,7 @@ const Experience = () => {
             className="mb-8"
           >
             <h2 className="text-2xl font-semibold text-slate-200">
-              Web Developer
+              Web Developer & Designer
             </h2>
 
             <hr className="w-1/2 mt-3 border-slate-600" />
