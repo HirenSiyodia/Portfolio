@@ -106,7 +106,7 @@ const Home = () => {
           className="flex flex-col items-center py-4"
         >
           <div className="flex flex-col items-center">
-<div className="p-0 sm:p-6 lg:p-7 rounded-none sm:rounded-xl border-0 sm:border border-gray-700 shadow-none sm:shadow-2xl rotate-3">
+            <div className="p-0 sm:p-6 lg:p-7 rounded-none sm:rounded-xl border-0 sm:border border-gray-700 shadow-none sm:shadow-2xl rotate-3">
               <div className="-rotate-3">
                 <div className="w-60 h-72 sm:w-68 sm:h-80 lg:w-70 lg:h-78 rounded-xl overflow-hidden">
                   <img
@@ -141,7 +141,7 @@ const Home = () => {
 
             <motion.a
               variants={socialItemVariants}
-              href="https://in.linkedin.com/in/hiren-siyodia"
+              href="https://www.linkedin.com/in/hiren-siyodia/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full border border-gray-700 bg-black/50 flex items-center justify-center text-blue-400 hover:text-white hover:border-blue-400 transition-all duration-300 hover:scale-110"
@@ -269,9 +269,13 @@ const Home = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center gap-4">
-            <button className="group inline-flex items-center gap-2 rounded-lg border border-blue-300 bg-blue-400/10 px-5 py-3.5 text-sm font-semibold tracking-wider leading-relaxed text-blue-300 transition-all duration-300 hover:scale-105 cursor-pointer hover:border-blue-400 hover:bg-blue-400 hover:text-white hover:shadow-[0_0_25px_rgba(129,140,248,0.25)]">
+            <a
+              href="/Hiren_Siyodia_Resume2026.pdf"
+              download
+              className="group inline-flex items-center gap-2 rounded-lg border border-blue-300 bg-blue-400/10 px-5 py-3.5 text-sm font-semibold tracking-wider leading-relaxed text-blue-300 transition-all duration-300 hover:scale-105 cursor-pointer hover:border-blue-400 hover:bg-blue-400 hover:text-white hover:shadow-[0_0_25px_rgba(129,140,248,0.25)]"
+            >
               Download Resume
-            </button>
+            </a>
           </div>
         </div>
       </motion.div>

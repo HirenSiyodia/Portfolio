@@ -12,7 +12,7 @@ const Experience = () => {
       role: "Web Designer & Web Developer",
       duration: "February 2025 - April 2026",
       description:
-        "Hello add here"
+        "Worked as a web developer & Designer on client website projects in collaboration with a partner company. Developed websites using HTML, CSS, JavaScript, and React.js to deliver user-facing web experiences. Gathered and analyzed client requirements to create actionable development plans for websites and applications. Designed and implemented technical solutions for specific user-facing assets and website requirements. Collaborated with clients and internal stakeholders throughout the development process to align solutions with project objectives."
     },
     {
       company: "Teleperformance Pvt Ltd.",
@@ -31,7 +31,7 @@ const Experience = () => {
     {
       company: "Global Advertising Media Pvt Ltd.",
       role: "Junior Web Developer",
-      duration: "JFebruary 2019 - June 2019",
+      duration: "February 2019 - June 2019",
       description:
         "Associated in a 7-member frontend team to develop and maintain websites using HTML, CSS, SCSS, Media queries, JavaScript, and jQuery. Managed content across five websites using various Content Management Systems, including WordPress, MVC, and Drupal. Conducted client visits and provided ongoing support to ensure effective content delivery and client satisfaction.",
     },
@@ -40,7 +40,7 @@ const Experience = () => {
       role: "Web Developer & Designer",
       duration: "May 2018 - December 2018",
       description:
-        "Synchronized with a team of 2 designers and 2 developers to brainstorm and establish UI requirements and layout designs. Developed Responsive web interfaces using HTML, CSS/SCSS for 5+ web applications, incorporated Media queries for Cross-device compatibility. Conducted manual, cross-browser compatibility testing for websites, utilized Git for version control.",
+        "Synchronized with a team of 2 designers and 2 developers to brainstorm and establish UI requirements and layout designs. Developed Responsive web interfaces using HTML, CSS/SCSS for 2+ web applications, incorporated Media queries for Cross-device compatibility. Conducted manual, cross-browser compatibility testing for websites, utilized Git for version control.",
     },
   ];
 

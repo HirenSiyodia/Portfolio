@@ -18,7 +18,7 @@ export default function Footer() {
     {
       icon: <FaLinkedinIn className="w-5 h-5 text-white" />,
       label: "/in/siyodiahiren/",
-      href: "https://linkedin.com/in/siyodiahiren/",
+      href: "https://www.linkedin.com/in/hiren-siyodia/",
     },
     {
       icon: <FaGithub className="w-5 h-5 text-white" />,
@@ -27,7 +27,7 @@ export default function Footer() {
     },
     {
       icon: <FaPhoneAlt className="w-5 h-5 text-white" />,
-      label: "+91-98-199-13-272",
+      label: "+91-98199-13272",
       href: "tel:+919819913272",
     },
   ];
@@ -166,7 +166,8 @@ export default function Footer() {
               Want to know more?
             </h3>
             <a
-              href="#resume"
+              href="/Hiren_Siyodia_Resume2026.pdf"
+              download
               className="group inline-flex items-center gap-3 rounded-lg border tracking-wider leading-relaxed border-blue-300 bg-blue-400/10 px-7 py-3.5 text-sm font-semibold text-blue-300 transition-all duration-300 hover:scale-105 cursor-pointer hover:border-blue-400 hover:bg-blue-400 hover:text-white hover:shadow-[0_0_25px_rgba(129,140,248,0.25)]"
             >
               Download Resume
